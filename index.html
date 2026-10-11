@@ -1,9 +1,116 @@
 <!doctype html>
-<html lang="en">
+<html lang="id">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>CV - Choirul Ashari</title>
+    <!-- Hubungkan file CSS terpisah -->
+    <link rel="stylesheet" href="style.css" />
   </head>
-  <body></body>
+  <body>
+    <div class="cv-container">
+      <!-- Bagian Kiri / Sidebar -->
+      <aside class="sidebar">
+        <div class="profile-img-box">
+          <!-- Ganti link foto sesuai keinginan atau biarkan pakai placeholder -->
+          <img
+            src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=300&auto=format&fit=crop&q=80"
+            alt="Foto Profil Choirul Ashari"
+          />
+        </div>
+
+        <h1 class="name">Choirul Ashari</h1>
+        <p class="title">Mahasiswa Informatika</p>
+
+        <div class="section-box">
+          <h3>Kontak & Info</h3>
+          <ul class="contact-list">
+            <li><strong>Universitas:</strong> Univ. Muhammadiyah Ponorogo</li>
+            <li><strong>NIM:</strong> 21xxxxxxxx</li>
+            <li><strong>Alamat:</strong> Ponorogo, Jawa Timur</li>
+            <li><strong>Email:</strong> choirul@email.com</li>
+          </ul>
+        </div>
+
+        <div class="section-box">
+          <h3>Sosial Media</h3>
+          <ul class="social-list">
+            <li>
+              <a href="https://tiktok.com/@username_tiktok" target="_blank"
+                >TikTok</a
+              >
+            </li>
+            <li>
+              <a href="https://instagram.com/@username_ig" target="_blank"
+                >Instagram</a
+              >
+            </li>
+          </ul>
+        </div>
+
+        <div class="section-box">
+          <h3>Keahlian</h3>
+          <ul class="skills-list">
+            <li>HTML, CSS, JavaScript</li>
+            <li>C++ Programming</li>
+            <li>React & Next.js</li>
+            <li>Git & GitHub</li>
+            <li>Flowgorithm</li>
+          </ul>
+        </div>
+      </aside>
+
+      <!-- Bagian Kanan / Konten Utama -->
+      <main class="main-content">
+        <section class="content-section">
+          <h2>Tentang Saya</h2>
+          <p>
+            Halo! Saya Choirul Ashari, seorang mahasiswa Program Studi Teknik
+            Informatika di Universitas Muhammadiyah Ponorogo. Memiliki
+            ketertarikan kuat dalam pengembangan web, pemrograman C++, serta
+            senang mengeksplorasi teknologi baru dan logika algoritma.
+          </p>
+        </section>
+
+        <section class="content-section">
+          <h2>Pendidikan</h2>
+          <div class="item">
+            <h3>S1 Teknik Informatika</h3>
+            <p class="sub">Universitas Muhammadiyah Ponorogo | Sekarang</p>
+            <p>
+              Fokus mendalami algoritma pemograman, struktur data, dan rekayasa
+              perangkat lunak.
+            </p>
+          </div>
+        </section>
+
+        <section class="content-section">
+          <h2>Proyek & Pengalaman</h2>
+          <div class="item">
+            <h3>Pengembangan Aplikasi Web</h3>
+            <p class="sub">HTML, CSS, JavaScript, Next.js</p>
+            <p>
+              Membuat berbagai proyek antarmuka web, mengatur manajemen
+              repositori menggunakan Git/GitHub, dan menyusun diagram alur
+              menggunakan Flowgorithm.
+            </p>
+          </div>
+          <div class="item">
+            <h3>Praktikum Pemrograman C++</h3>
+            <p class="sub">Code::Blocks & Visual Studio Code</p>
+            <p>
+              Mengerjakan berbagai tugas logika dasar, struktur kontrol,
+              perulangan, hingga algoritma pencarian (Linear dan Binary Search).
+            </p>
+          </div>
+        </section>
+
+        <div class="btn-box">
+          <button onclick="window.print()" class="print-btn">
+            Cetak / Simpan PDF
+          </button>
+        </div>
+      </main>
+    </div>
+  </body>
 </html>
